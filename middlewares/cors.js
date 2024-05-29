@@ -6,7 +6,10 @@
 //   "https://vitominx-frontend.nomoredomainswork.ru",
 // ];
 
-const allowedCors = ["https://vitominx-frontend.nomoredomainswork.ru"];
+const allowedCors = [
+  "https://vitominx-frontend.nomoredomainswork.ru",
+  "https://vitominx-backend.nomoredomainswork.ru",
+];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
